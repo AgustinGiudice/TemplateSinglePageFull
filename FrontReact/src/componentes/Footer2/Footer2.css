@@ -1,0 +1,40 @@
+.footer2{
+    height: 30vh;
+    background-color: rgb(78, 78, 78);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 7rem;
+    gap: 1rem;
+}
+
+@media (max-width: 768px ){
+    .termsAndCopy{
+        text-align: center;
+    }
+}
+
+.logoFooter2{
+    font-size: 2.7rem;
+    color: white;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family:  'Merienda', cursive;
+  }
+  .logoFooter2 span{
+    font-weight: bold;
+  }
+
+  .termsAndCopy{
+    text-align: center;
+  }
+  
+  .terms{
+    text-align: center;
+  }
+
+  .copy{
+    color: white;
+  }

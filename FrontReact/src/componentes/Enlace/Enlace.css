@@ -1,0 +1,43 @@
+
+a{
+    margin: 0 1rem;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+  }
+  
+  .link {
+    position: relative;
+    display: inline-block;
+    color: #f6f6f6;
+    text-decoration: none;
+    padding-bottom: 5px;
+    overflow: hidden;
+  }
+  
+  .link::before,
+  .link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 1.5px;
+    background-color: #fffcfc;
+    transition: width 0.3s ease-in-out;
+    transform: translateX(-50%);
+  }
+  
+  .link::before {
+    transform-origin: right center;
+  }
+  
+  .link::after {
+    transform-origin: left center;
+  }
+  
+  .link:hover::before,
+  .link:hover::after {
+    width: 100%;
+  }

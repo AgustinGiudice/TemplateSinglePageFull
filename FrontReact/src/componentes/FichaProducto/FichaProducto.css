@@ -1,0 +1,22 @@
+.FichaProducto{
+    color: white;
+    text-align: center;
+    margin-left: .25rem;
+    margin-right: .25rem;
+}
+
+.imgFicha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 2rem 0rem;
+}
+
+.FichaProducto h3{
+    color: #c78a30;
+}
+
+.FichaProducto p:first-of-type{
+    font-weight: bold;
+}

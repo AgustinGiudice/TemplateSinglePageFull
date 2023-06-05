@@ -1,0 +1,35 @@
+.ProductosContainer{
+    background-image:url(../../assets/img/img4.jpg) ;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center center;
+    padding: 2rem 4rem;
+}
+
+.fichasContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+}
+
+
+@media (max-width: 930px){
+    .fichasContainer{  
+        grid-template-columns: repeat(3, 3fr);
+    }
+}
+@media (max-width: 700px){
+    .fichasContainer{  
+        grid-template-columns: repeat(1, 3fr);
+    }
+}
+
+.ProductosContainer h2{
+    color: white;
+    text-align: center;
+}
+
+
+
+
